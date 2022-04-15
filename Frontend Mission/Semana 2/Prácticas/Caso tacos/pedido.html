@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido</title>
+    </head>
+    <body>
+        <h1>Aquí se hace tu pedido</h1>
+
+        <form action="pedido.js">
+            <label for="nombre">Tu nombre introducir debes</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+
+            <label for="mesa">Tu mesa (El número abajo está)</label><br>
+            <input type="number" name="mesa" id="mesa" placeholder="4">
+
+            <p>¿Para comer aquí o para llevar?</p>
+            <input type="radio" id="aqui" name="lugar" value="Aqui">
+            <label for="aqui">Aqui</label><br>
+            <input type="radio" id="llevar" name="lugar" value="Llevar">
+            <label for="llevar">Llevar</label><br>
+
+            <p>¿De qué tus tacos serán?</p>
+            <input type="checkbox" id="jedi" name="jedi" value="Jedi (Pastor)">
+            <label for="jedi">Jedi (Pastor)</label>
+            <input type="number" id="jediCantidad" name="jediCantidad" placeholder="¿Cuántos?"><br>
+    
+            <input type="checkbox" id="padawam" name="padawam" value="Padawam (Chorizo)">
+            <label for="padawam">Padawam (Chorizo)</label>
+            <input type="number" id="padawamCantidad" name="padawamCantidad" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="empire" name="empire" value="Empire (Tripa)">
+            <label for="empire">Empire (Tripa)</label>
+            <input type="number" id="empireCantidad" name="empireCantidad" placeholder="¿Cuántos?"><br>
+
+            <input type="checkbox" id="stormtroopper" name="stormtroopper" value="Stormtroopper (Pastor)">
+            <label for="stormtroopper">Stormtroopper (Bistec)</label>
+            <input type="number" id="stormtroopperCantidad" name="stormtroopperCantidad" placeholder="¿Cuántos?"><br>
+        
+            <p>¿Qué bebida tomar desea?</p>
+            <select name="refresco" id="refresco">
+                <option value="Coca Cola">Coca-Cola</option>
+                <option value="Sidral de manzana">Sidral de manzana</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Fuze Tea">Fuze Tea de Limón</option>
+                <option value="Coca Cola Light">Coca-Cola Light</option>
+                <option value="Coca Cola sin azucar">Coca-Cola sin azúcar</option>
+            </select>
+            
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+
+        </form>
+    </body>
+
+</html>
