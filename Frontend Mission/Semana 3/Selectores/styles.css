@@ -1,0 +1,29 @@
+p{
+    color: red;
+    text-align: center;
+}
+
+#titulo{
+    color: blue;
+    text-align: right;
+}
+
+.izquierda{
+    color: green;
+    text-align: left;
+}
+
+/*
+    Esto incluye a todos los elementos tipo p con la clase izquierda
+*/
+p.izquierda{
+    text-decoration: underline;
+}
+
+.contraste{
+    background-color: black;
+}
+/* Agrupa varios elementos que tendran ciertos estilos*/
+h1, h2, p{
+    font-weight: bold;
+}
