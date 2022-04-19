@@ -1,0 +1,29 @@
+*{
+    /*Estable que todo el html tendrá la siguiente fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.colorRojo{
+    color: red;
+}
+
+.colorRGB{
+    color: rgb(93, 113, 218);
+}
+
+.colorRGBA{
+    /*La opacidad va de 0 a 1, entre más cerca del 0, más transparente*/
+    color: rgba(93, 217, 94, 0.6);
+}
+
+.colorHEX{
+    color: #EE43E3;
+}
+
+.colorHSL{
+    color: hsl(30,60%, 31%);
+}
